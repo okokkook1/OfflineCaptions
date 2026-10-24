@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWPF>true</UseWPF><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><AssemblyName>OfflineCaptions-Setup</AssemblyName><Version>0.2.1</Version><PublishSingleFile>true</PublishSingleFile><EnableCompressionInSingleFile>true</EnableCompressionInSingleFile><IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract><PlatformTarget>x64</PlatformTarget></PropertyGroup>
+  <ItemGroup><EmbeddedResource Include="..\build\payload.zip" LogicalName="Payload.zip" /></ItemGroup>
+</Project>

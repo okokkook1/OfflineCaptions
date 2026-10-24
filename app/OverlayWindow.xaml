@@ -1,0 +1,8 @@
+<Window x:Class="OfflineCaptions.OverlayWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="即時字幕" Width="900" Height="150" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" Background="Transparent" Topmost="True" ShowInTaskbar="False" ShowActivated="False" MouseLeftButtonDown="DragCaption">
+  <Border x:Name="Panel" Background="#CC111820" CornerRadius="12" Padding="24,14">
+    <Grid><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+      <TextBlock x:Name="Hint" Text="離線字幕 · 拖曳移動 · Ctrl+Alt+S 切換滑鼠穿透" FontSize="10" Foreground="#B0BBC4" Margin="0,0,0,6"/>
+      <TextBlock x:Name="Caption" Grid.Row="1" Text="準備好後，按「開始字幕」" Foreground="White" FontSize="28" TextAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" TextTrimming="CharacterEllipsis" MaxHeight="85"/>
+    </Grid>
+  </Border>
+</Window>

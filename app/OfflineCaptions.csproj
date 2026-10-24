@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>OfflineCaptions</AssemblyName><ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>0.2.1</Version><Product>離線即時字幕</Product><Copyright>2026</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="..\backend\*.py" Link="backend\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\backend\requirements.txt" Link="backend\requirements.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\backend\requirements.lock.txt" Link="backend\requirements.lock.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\build\native\OfflineCapture.dll" Link="OfflineCapture.dll" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
