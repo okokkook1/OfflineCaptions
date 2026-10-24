@@ -78,3 +78,7 @@ dist\OfflineCaptions\OfflineCaptions.exe --self-test
 ```
 
 測試證據與尚未驗證項目見 `VALIDATION.md`。自動測試不能取代 Zoom／Teams／瀏覽器真實會議、不同音訊裝置與一小時穩定性驗收。
+
+## 授權
+
+本專案原始碼採用 [MIT License](LICENSE)。語音模型、推論函式庫與其他第三方元件仍依各自授權使用，詳見 `THIRD-PARTY-NOTICES.md` 與 `licenses/`；SenseVoice Small INT8 模型依 FunASR Model License，模型檔不包含在原始碼儲存庫中。發佈包內附的模型與執行環境同樣受這些第三方條款約束。
