@@ -4,7 +4,7 @@
 
 ## 開始使用
 
-1. 執行 `OfflineCaptions-Setup.exe`，按「安裝並開啟」。或將 `OfflineCaptions-Windows-x64.zip` 完整解壓後開啟 `OfflineCaptions.exe`。
+1. 從 [Releases](https://github.com/okokkook1/OfflineCaptions/releases/latest) 下載 `OfflineCaptions-Setup.exe`，按「安裝並開啟」。或將自行建置的 `OfflineCaptions-Windows-x64.zip` 完整解壓後開啟 `OfflineCaptions.exe`。
 2. 先讓 Zoom、Teams、瀏覽器會議或播放器發出聲音，再按「重新整理」。
 3. 選擇應用程式與來源語言，按「開始字幕」。辨識引擎為 SenseVoice Small INT8。
 4. 按「暫停／繼續」控制收音；「結束」會完成剩餘片段。文字歷史可手動匯出 TXT 或 SRT。
